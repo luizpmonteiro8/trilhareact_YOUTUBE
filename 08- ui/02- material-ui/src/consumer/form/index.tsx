@@ -72,7 +72,7 @@ const RegistrationForm = () => {
   return (
     <Container component="main" maxWidth="sm" sx={{ marginTop: 8 }}>
       <Paper sx={{ padding: 3 }}>
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h1" gutterBottom>
           {consumerId ? "Editar Cliente" : "Novo Cliente"}
         </Typography>
         <Link to="/" style={{ textDecoration: "none" }}>

@@ -119,6 +119,7 @@ const RegistrationForm = () => {
                 id="password"
                 {...field}
                 feedback={false}
+                toggleMask
                 className={errors.password ? "p-invalid" : ""}
               />
             )}
@@ -169,7 +170,7 @@ const RegistrationForm = () => {
 
         <div className="flex flex-column gap-2">
           {fields.map((field, index) => (
-            <div key={field.id} className="p-fieldset p-mb-4">
+            <div key={field.id} className="flex flex-column p-fieldset m-2 p-2">
               <label htmlFor={`referer.${index}.name`}>
                 Nome da Referência
               </label>

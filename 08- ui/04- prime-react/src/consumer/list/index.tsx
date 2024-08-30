@@ -44,11 +44,15 @@ const ListConsumer: React.FC = () => {
         Clique aqui para adicionar um novo cliente
       </Link>
 
-      <DataTable value={consumers} className="p-mt-4">
+      <DataTable value={consumers} showGridlines stripedRows className="p-mt-4">
         <Column field="id" header="ID"></Column>
         <Column field="name" header="Nome"></Column>
         <Column field="email" header="Email"></Column>
-        <Column field="telephone" header="Telefone"></Column>
+        <Column
+          field="telephone"
+          header="Telefone"
+          body={(rowData) => rowData.telephone}
+        ></Column>
         <Column
           field="knowReact"
           header="Sabe React"

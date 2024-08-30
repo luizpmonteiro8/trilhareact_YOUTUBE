@@ -34,7 +34,7 @@ function App() {
   const { data: contacts = [], isLoading } = useQuery<Contact[]>({
     queryKey: ["contacts"],
     queryFn: fetchContacts,
-    refetchInterval: 2000,
+    refetchInterval: 20000,
   });
 
   const mutationAdd = useMutation({

@@ -18,7 +18,7 @@ function App() {
   const {
     data: contacts = [],
     error,
-    //mutate,
+    /*   mutate, */
     isLoading,
   } = useSWR<Contact[]>("http://localhost:3000/contacts", fetcher, {
     refreshInterval: 2000,

@@ -4,8 +4,8 @@ const AnimatedCard = () => {
   return (
     <motion.div
       className="bg-white shadow-md rounded-lg overflow-hidden"
-      initial={{ opacity: 0, x: "-100%", y: "100%" }}
-      animate={{ opacity: 1, x: 0, y: 0 }}
+      initial={{ opacity: 0, y: "-100%" }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
       <div className="bg-red-600"> Image </div>

@@ -26,14 +26,13 @@ createRoot(document.getElementById("root")!).render(
   </PrimeReactProvider>
 );
 
-//shadcn ui
+//prime react
 /*
-npm install primereact primeicons
+npm install primereact primeicons primeflex
 
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';    
 
-npm i primeflex
 import "/node_modules/primeflex/primeflex.css";
 */

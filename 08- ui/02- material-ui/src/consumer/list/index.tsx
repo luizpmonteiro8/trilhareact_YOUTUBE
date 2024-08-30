@@ -30,7 +30,7 @@ const ListConsumer: React.FC = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h1" gutterBottom>
         Lista de Clientes
       </Typography>
       <Button

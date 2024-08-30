@@ -27,6 +27,7 @@ function App() {
       name,
       phone,
     });
+    setContacts([...contacts, response.data]);
     setName("");
     setPhone("");
   };
